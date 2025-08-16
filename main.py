@@ -5,12 +5,12 @@ import random
 import re
 import os
 
-# اطلاعات حساب کاربری
-api_id = 'API ID TELEGRAM'  # ← API ID واقعی شما
-api_hash = 'API HASH TELEGRAM'  # ← API HASH واقعی شما
-phone = '+98********'  # ← شماره موبایل شما
+# account information
+api_id = 'API ID TELEGRAM'  # ← API ID 
+api_hash = 'API HASH TELEGRAM'  # ← API HASH 
+phone = '+98********'  # ← phone number
 
-# لیست لینک‌های ربات
+# oringin bot lit to forwareded
 bot_links = [
     "ORIGIN BOT LINKS"
 ]
@@ -19,10 +19,10 @@ bot_links = [
 
 
 
-# آیدی یا یوزرنیم کانال مقصد
-target_channel = ''  # مثال: 'mychannel' یا عددی مثل -1001234567890
+# destinition channel id to forwarded
+target_channel = ''  # "https://t.me/your_channel
 
-# فایل برای ذخیره شناسه پیام‌هایی که قبلاً فوروارد شدند
+# Sent message ID file
 forwarded_ids_file = "forwarded_ids.txt"
 
 client = TelegramClient('forward_bot', api_id, api_hash)
