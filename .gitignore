@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+*.code-workspace
+
+# Editor session files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.session
+*.ses
+*.swp.*
+
+# System files
+.DS_Store
+Thumbs.db
