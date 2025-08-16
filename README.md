@@ -1,4 +1,4 @@
-# 🎬 Telegram Auto Forward Bot (کنکور)
+# 🎬 Telegram Konkur Auto Forward Bot
 
 این پروژه شامل دو اسکریپت پایتون است که با استفاده از تلگرام، ویدیوهای ربات‌های آموزشی کنکور را به صورت خودکار فوروارد می‌کند و ذخیره می‌کند.
 
@@ -27,8 +27,8 @@
 
 ```bash
 # کلون کردن مخزن
-git clone https://github.com/IR0017/telegram--auto-forwarded-film-konkor-.git
-cd telegram--auto-forwarded-film-konkor-
+git clone https://github.com/IR0017/telegram-konkur-bot.git
+cd telegram-konkur-bot
 
 # ساخت محیط مجازی (اختیاری)
 python -m venv venv
@@ -87,7 +87,7 @@ python extract_links.py
 2. **فوروارد خودکار فایل‌ها**
 
 ```bash
-python main.py
+python forward_bot.py
 ```
 
 این اسکریپت لینک‌ها را پردازش کرده و فایل‌ها را به کانال مشخص شده فوروارد می‌کند.
